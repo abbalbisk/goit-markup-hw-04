@@ -5,6 +5,7 @@
 .team-item {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-item h3 {
   font-weight: 500;
@@ -39,3 +40,41 @@
 .team-info {
   padding: 32px 16px;
 }
+.team-info p{
+  margin-bottom: 8px;
+}
+.icon-border{
+  border-radius: 40px;
+  
+width: 40px;
+height: 40px;
+background-color: #4d5ae5;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+fill: #f4f4fd;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
+
+}
+.icon-border:hover,
+.icon-border:focus
+{
+  background-color: #404bbf;
+  
+}
+
+
+
+
+.icon-team{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  
+}
+
+
+

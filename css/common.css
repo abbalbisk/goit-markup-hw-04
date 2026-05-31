@@ -1,3 +1,9 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
 body{
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   color: #2e2f42;
