@@ -29,16 +29,22 @@ display: inline-block;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+    margin-right: 120px;
 }
-.social-media p{
+.footer-social{
     color: #fff;
  margin-bottom: 16px;
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
 }
 .footer-flex{
    display: flex;
    flex-direction: row;
    align-items: center;
-   gap :120px;
+   
 }
 .icon-footer{
     border-radius: 40px;
