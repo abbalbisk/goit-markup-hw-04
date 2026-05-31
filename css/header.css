@@ -1,0 +1,94 @@
+
+.logos {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.mainlogo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 76px;
+}
+.portfo a {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+.portfo a {
+  display:block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.portfo a:hover {
+  color: #404bbf;
+}
+.portfo a:focus {
+  color: #404bbf;
+}
+
+.address li a {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+    padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.address li a:hover, .address li a:focus {
+  color: #404bbf;
+}
+.header{
+
+  border-bottom: 1px solid #e7e9fc;
+ 
+}
+.header .container {
+   display: flex;
+   align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+ 
+}
+.navigation{
+    display: flex;
+  align-items: center;
+
+
+}
+.address{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.tag-adress {
+  margin-left: auto;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 0;
+}
+
